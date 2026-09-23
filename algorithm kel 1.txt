@@ -1,0 +1,44 @@
+Function Main
+    Call Start
+End
+
+Function Start
+    Declare Real pendapatan
+    Declare Real jumlahPengeluaran
+    Declare Real totalPengeluaran
+    Declare Real sisaSaldo
+    Declare Real persenSisa
+    Declare String kategori
+    Declare String lagi
+    Declare String kondisi
+
+    Assign totalPengeluaran = 0
+    Output "Masukkan total pendapatan:"
+    Input pendapatan
+    Do
+        Output "Masukkan kategori pengeluaran:"
+        Input kategori
+        Output "Masukkan jumlah pengeluaran:"
+        Input jumlahPengeluaran
+        Assign totalPengeluaran = totalPengeluaran + jumlahPengeluaran
+        Output "Tambah pengeluaran lagi? (ya/tidak)"
+        Input lagi
+    Loop lagi = "ya"
+    Assign sisaSaldo = pendapatan - totalPengeluaran
+    Assign persenSisa = (sisaSaldo / pendapatan) * 100
+    If persenSisa >= 30
+        Assign kondisi = "baik"
+    Else
+        If persenSisa >= 10
+            Assign kondisi = "Perlu Perhatian"
+        Else
+            Assign kondisi = "krisis"
+        End
+    End
+    Output "=== RINGKASAN ANGGARAN ==="
+    Output "Pendapatan = " & pendapatan
+    Output "Total Pengeluaran = " & totalPengeluaran
+    Output "Sisa Saldo = " & sisaSaldo
+    Output "Persentase Sisa = " & persenSisa & "%"
+    Output "Kondisi Keuangan = " & kondisi
+End

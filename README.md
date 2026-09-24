@@ -82,7 +82,7 @@ The program displays:
 
 The algorithm used in the program is described in:
 
-[algorithm.txt](https://github.com/deswitaa1/kelompok-satu-/blob/7687d5c73e1839edc81df89e452bd6b46d6f0f07/algorithm.txt)
+[algorithm.txt](https://github.com/deswitaa1/kelompok-satu-/blob/main/algorithm.txt)
 
 ---
 
@@ -92,7 +92,7 @@ The flowchart is created using Flowgorithm.
 
 File:
 
-[flowchart.fprg](https://github.com/deswitaa1/kelompok-satu-/blob/7687d5c73e1839edc81df89e452bd6b46d6f0f07/flowchart.fprg)
+[flowchart.fprg](https://github.com/deswitaa1/kelompok-satu-/blob/main/flowchart.fprg)
 
 ---
 
@@ -100,7 +100,7 @@ File:
 
 The JavaScript implementation of the program is available in:
 
-[program.js](https://github.com/deswitaa1/kelompok-satu-/blob/7687d5c73e1839edc81df89e452bd6b46d6f0f07/program.js)
+[program.js](https://github.com/deswitaa1/kelompok-satu-/blob/main/program.js)
 
 ---
 
@@ -110,4 +110,4 @@ The program is tested using several test scenarios.
 
 Testing documentation:
 
-[test-cases.md](https://github.com/deswitaa1/kelompok-satu-/blob/7687d5c73e1839edc81df89e452bd6b46d6f0f07/test-cases.md)
+[test-cases.md](https://github.com/deswitaa1/kelompok-satu-/blob/main/test-cases.md)
